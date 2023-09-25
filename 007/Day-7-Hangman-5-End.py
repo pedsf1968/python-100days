@@ -1,4 +1,5 @@
 #Step 5
+# call pip install replit before
 
 import random
 from replit import clear
