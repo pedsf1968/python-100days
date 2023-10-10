@@ -19,21 +19,22 @@ def main():
     screen.listen()
 
     game_is_on = True
-    counter = 6
     while game_is_on:
         time.sleep(0.1)
         screen.update()
+        # Move cars and detect collisions
         game_is_on = car_manager.move(player)
-        counter -= 1
-        if counter == 0:
-            counter = 6
-            car_manager.add_car()
+        # Add randomly a car
+        car_manager.add_car()
 
         if player.ycor() > p.SCREEN_HEIGHT_RANGE:
+            # increase score, reset position and speed the cars
             scoreboard.increase_score()
             player.reset_position()
+            car_manager.level_up()
 
     scoreboard.game_over()
+
 
 if __name__ == '__main__':
     main()

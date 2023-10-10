@@ -6,9 +6,9 @@ class Player(Turtle):
 
     def __init__(self):
         super().__init__("turtle")
+        self.penup()
         self.color(p.PLAYER_COLOR)
         self.setheading(90)
-        self.penup()
         self.goto(p.PLAYER_POSITION)
 
     def up(self):
