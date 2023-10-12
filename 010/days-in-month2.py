@@ -10,8 +10,6 @@
 # Remember that month_days is a List and Lists in Python start at position 0. So the number of days in January is month_days[0]
 # Be careful with indentation.
 
-month_days = [31,28,31,30,31,30,31,31,30,31,30,31]
-
 def is_leap(year):
     if (year % 4) == 0:
         if (year % 100) == 0:
@@ -23,8 +21,11 @@ def is_leap(year):
             return True
     else:
         return False
-    
+
+
 def days_in_month(year=2023, month=2):
+    month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+
     if year>9999 or year<0:
         return "ERROR: Invalid year! Month must be between 0 to 9999"
     if month>12 or month<1:
@@ -33,10 +34,8 @@ def days_in_month(year=2023, month=2):
     if month == 2:
         if is_leap(year):
             return 29
-        else:
-            return 28
-    else:
-        return month_days[month-1]
+    return month_days[month-1]
+
 
 #🚨 Do NOT change any of the code below 
 year = int(input("Enter a year: "))

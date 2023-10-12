@@ -20,11 +20,11 @@ position = input("Where do you want to put the treasure? ")
 # 🚨 Don't change the code above 👆
 
 #Write your code below this row 👇
-column = int(int(position)/10)
-row = int(position) - 10*column
-map[row-1][column-1] = "X"
-
-
+letter = position[0].lower()
+abc = ["a", "b", "c"]
+column = abc.index(letter)
+row = int(position[1]) - 1
+map[row][column] = "X"
 
 #Write your code above this row 👆
 

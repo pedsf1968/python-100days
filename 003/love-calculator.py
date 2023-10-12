@@ -20,18 +20,14 @@ name2 = input("What is their name? \n")
 all_names = (name1 + name2).lower()
 score = 0
 for t in "true":
-   score+=all_names.count(t)*10
+   score += all_names.count(t)*10
 
 for l in "love":
-    score+=all_names.count(l)
+    score += all_names.count(l)
 
-if score < 10 | score > 90:
+if score < 10 or score > 90:
     print(f"Your score is **{score}**, you go together like coke and mentos.")
-elif score < 50 & score > 40:
+elif score < 50 and score > 40:
     print(f"Your score is **{score}**, you are alright together.")
 else:
     print(f"Your score is **{score}**.")
-
-        
-
-

@@ -3,19 +3,11 @@
 # Important, there should only be 1 print statement in your console output. It should just print the final total and not every step of the calculation.
 # Hint
 # There are quite a few ways of solving this problem, but you will need to use the range() function in any of the solutions.
-target = int(input())
+target = int(input("Enter a number between 0 and 1000: "))
 
 #Write your code below this row 👇
 even_sum = 0
-for number in range(2, 101, 2):
+for number in range(2, target+1, 2):
     even_sum += number
 
 print(even_sum)
-
-# Other method
-even_sum2 = 0
-for number in range(1, 101):
-    if number % 2 == 0:
-        even_sum2 += number
-
-print(even_sum2)

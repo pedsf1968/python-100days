@@ -16,11 +16,12 @@ for n in range(0, len(student_heights)):
 
 
 #Write your code below this row 👇
-count = 0
 total_height = 0
+number_of_students = 0
 for h in student_heights:
-  count+=1
+  number_of_students+=1
   total_height+=h
 
-average_height = round(total_height/count)
-print(average_height)
+print(f"total height = {total_height}")
+print(f"number of students = {number_of_students}")
+print(f"average height = {round(total_height/number_of_students)}")
