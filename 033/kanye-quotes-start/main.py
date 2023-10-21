@@ -1,14 +1,10 @@
 from tkinter import *
-import requests
-
-KANYE_API_URL = "https://api.kanye.rest"
 
 
 def get_quote():
     pass
-    response = requests.get(url=KANYE_API_URL)
-    response.raise_for_status()
-    canvas.itemconfig(quote_text, text=response.json()["quote"])
+    #Write your code here.
+
 
 
 window = Tk()
@@ -24,6 +20,7 @@ canvas.grid(row=0, column=0)
 kanye_img = PhotoImage(file="kanye.png")
 kanye_button = Button(image=kanye_img, highlightthickness=0, command=get_quote)
 kanye_button.grid(row=1, column=0)
-get_quote()
+
+
 
 window.mainloop()
