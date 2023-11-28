@@ -9,7 +9,7 @@ from os import environ
 import base64
 
 # constants
-SPOTIFY_USER_ID = "31l7m423o7rhfodl5x2oex53nqoy"
+SPOTIFY_USER_ID = environ.get("SPOTIFY_USER_ID")
 SPOTIFY_AUTH_URL = 'https://accounts.spotify.com/authorize'
 SPOTIFY_TOKEN_URL = 'https://accounts.spotify.com/api/token'
 SPOTIFY_BASE_URL = 'https://api.spotify.com/v1/'

@@ -6,7 +6,7 @@ import os
 import smtplib
 import random
 
-BW_EMAIL = "pedsf.fullstack@gmail.com"
+BW_EMAIL = "###########"
 BW_PASSWORD = "###########"
 BW_SMTP_SERVER = "smtp.gmail.com"
 BW_QUOTES_FILE = "quotes.txt"

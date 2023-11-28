@@ -7,7 +7,7 @@ LINKEDIN_URL = "https://linkedin.com/"
 LINKEDIN_SEARCH_URL = "https://www.linkedin.com/jobs/search/?currentJobId=3734820994&f_E=2&geoId=&keywords=Devops%20Engineer&location=France&origin=JOB_SEARCH_PAGE_JOB_FILTER"
 LINKEDIN_EMAIL = environ.get("LINKEDIN_EMAIL")
 LINKEDIN_PASSWORD = environ.get("LINKEDIN_PASSWORD")
-woff2?v=4.4
+
 
 def linkedin_init(driver):
     # Click sign

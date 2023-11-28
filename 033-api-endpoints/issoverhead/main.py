@@ -8,7 +8,7 @@ SUNSET_SUNRISE_API = "https://api.sunrise-sunset.org/json"
 ISS_OPEN_NOTIFY_API = "http://api.open-notify.org/iss-now.json"
 MY_LATITUDE = 47.241270
 MY_LONGITUDE = 6.025530
-MY_EMAIL = "pedsf.fullstack@gmail.com"
+MY_EMAIL = "##############"
 MY_PASSWORD = "###########"
 MY_SMTP_SERVER = "smtp.gmail.com"
 

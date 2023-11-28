@@ -1,6 +1,6 @@
 import smtplib
 
-BW_EMAIL = "pedsf.fullstack@gmail.com"
+BW_EMAIL = "#########"
 BW_PASSWORD = "#####"
 BW_SMTP_SERVER = "smtp.gmail.com"
 

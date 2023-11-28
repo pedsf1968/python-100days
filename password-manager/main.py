@@ -6,7 +6,7 @@ from password_generator import password_create
 PWM_LOGO_FILE = "logo.png"
 PWM_BACKUP_FILE = "pwm_data.json"
 PWM_PASSWORD_LENGTH = 12
-PWM_DEFAULT_LOGIN = "pedsf.fullstack@gmail.com"
+PWM_DEFAULT_LOGIN = ""
 COLUMN_SINGLE_WIDE = 25
 COLUMN_DOUBLE_WIDE = 50
 
