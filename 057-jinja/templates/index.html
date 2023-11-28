@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <h2>{{ 5 * 3}}</h2>
+    <h3>Random Number: {{ random_number }}</h3>
+    <a href="{{ url_for('guess_gender', user_name='Franck') }}">Got to guess gender and age</a>
+</body>
+
+<footer>
+    <p>© Copyright {{ current_year }}. Build by PEDSF.</p>
+</footer>
+</html>

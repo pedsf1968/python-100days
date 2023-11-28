@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+</head>
+<body>
+
+</body>
+    {% for post in posts: %}
+        {% if post['id'] == 2: %}
+            <h1>{{ post['title'] }}</h1>
+            <h2>{{ post['subtitle'] }}</h2>
+        {% endif %}
+    {% endfor %}
+
+<footer>
+    <p>© Copyright {{ current_year }}. Build by PEDSF.</p>
+</footer>
+</html>
