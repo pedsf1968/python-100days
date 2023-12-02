@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "So Nyeo Shi Dae",
+    "subtitle": "Girls'Generation.",
+    "body": "Un girl group sud-coréen formé par SM Entertainment (SME) en 2007 et à l'origine composé de neuf membres. Depuis 2012, il existe un sous-groupe constitué de Taeyeon, Tiffany et Seohyun : Girls' Generation-TTS. Et en 2018, un deuxième sous-groupe composé de Taeyeon, Sunny, Yuri, Hyoyeon et Yoona débute sous le nom de Girls' Generation-Oh!GG..",
+    "author": "Wikipédia",
+    "date": "2023/11/30",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/220805_%EC%86%8C%EB%85%80%EC%8B%9C%EB%8C%80_%28SNSD%29.jpg"
+  },
+  {
+    "id": 2,
+    "title": "IU",
+    "subtitle": "Grande voix.",
+    "body": "Chanteuse de K-pop, auteur-compositrice, actrice, guitariste, danseuse et présentatrice de télévision sud-coréenne1. Son nom de scène est dérivé de l'expression 'I and You', symbolisant que l'on peut s'unir par la musique.",
+    "author": "Wikipédia",
+    "date": "2023/11/30",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWRRw6UwpnO58Zcg6NLkh06JlBvxPubBTb5w&usqp=CAU"
+  },
+  {
+    "id": 3,
+    "title": "Blackpink",
+    "subtitle": "In you'r area!",
+    "body": "C'est le deuxième groupe féminin à débuter, après 2NE1, au sein de la YG Entertainment. Le groupe est composé de quatre membres se prénommant Jennie, Lisa, Jisoo et Rosé.",
+    "author": "Wikipédia",
+    "date": "2023/11/30",
+    "image_url": "https://www.programme-tv.net/imgre/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Ftel.2F2019.2F04.2F12.2Fa76ce14a-7e26-426b-8bf6-7dbdcd1a3fa4.2Ejpeg/1200x600/crop-from/top/quality/80/qui-est-blackpink-le-girls-band-de-k-pop-qui-explose-les-scores-sur-youtube-video.jpg"
+  }
+]
